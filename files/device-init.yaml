@@ -1,0 +1,10 @@
+# Add file in /boot of the hypriotOS
+# hostname for your HypriotOS device
+hostname: Node3
+
+# optional wireless network settings
+wifi:
+  interfaces:
+     wlan0:
+       ssid: "Toad's Kingdom"
+       password: "senescet@. impedies callinus&%"

@@ -1,0 +1,13 @@
+---
+
+- name: Stop du service device-init
+  systemd:
+    name: device-init
+    state: stopped
+
+- name: désactivation du service device-init
+  systemd:
+    name: device-init
+    enabled: no
+
+...
